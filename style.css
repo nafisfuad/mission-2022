@@ -1,6 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .container {
     display: flex;
-    margin: 0 100px;
+    margin: auto 100px;
 
 }
 h1 {
@@ -15,11 +18,12 @@ h1 {
 }
 .half-width {
     width: 50%;
-    margin: 0 50px;
+    margin: auto 50px;
     
 }
 .half-width img {
     width: 60%;
+    margin: auto 100px;
 }
 .half-width a {
     text-decoration: none;
@@ -33,11 +37,12 @@ h1 {
     width: 33%;
     margin: 0 10px;
     padding: 30px 20px;
-    border: 1px solid gray;
+    border: 1px solid none;
+
     border-radius: 25px;
 }
 .one-third img {
-    width: 30%;
+    width: 40%;
 }
 #text-center {
     text-align: center;
