@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -11,7 +12,7 @@ h1 {
 }
 #focused-head {
     font-family: 'Yeseva One', cursive;
-    border-left: 5px solid red;
+    border-left: 5px solid #FF5959;
     padding-left: 10px;
 }
 .orange-color {
@@ -68,4 +69,27 @@ h1 {
 h2 {
     margin: 5px auto;
 }
-
+#subscribe {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    padding: 100px;
+    text-align: center;
+    background-color: #FFF4D6;
+    height: 50px;
+}
+footer {
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 25px;
+}
+footer h2 {
+    font-family: 'Lobster', cursive;
+}
+footer p {
+    font-family: 'Manrope', sans-serif;
+}
+#red-text {
+    color: #FF5959;
+}
