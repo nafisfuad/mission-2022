@@ -3,18 +3,19 @@ body {
 }
 .container {
     display: flex;
-    margin: auto 100px;
+    margin: 0px 100px 50px 100px;
 
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
-#border {
+#focused-head {
+    font-family: 'Yeseva One', cursive;
     border-left: 5px solid red;
     padding-left: 10px;
 }
 .orange-color {
-    color: orange;
+    color: #FFAD5A;
 }
 .half-width {
     width: 50%;
@@ -22,16 +23,23 @@ h1 {
     
 }
 .half-width img {
-    width: 60%;
+    width: 70%;
     margin: auto 100px;
 }
-.half-width a {
+#href-tag {
     text-decoration: none;
-    background-color: orangered;
+    background-color: #FF5959;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
     margin: 100px auto;
+}
+#mission {
+    text-align: center;
+    font-weight: 700;
+}
+#blue-color {
+    color: #13103A;
 }
 .one-third {
     width: 33%;
@@ -44,6 +52,20 @@ h1 {
 .one-third img {
     width: 40%;
 }
-#text-center {
-    text-align: center;
+#green-color {
+    background-color: #4F9DA6;
 }
+#red-color {
+    background-color: #FF5959;
+}
+#yellow-color {
+    background-color: #FFF4D6;
+}
+.forty-sixty img {
+    width: 80%;
+    height: 90%;
+}
+h2 {
+    margin: 5px auto;
+}
+
